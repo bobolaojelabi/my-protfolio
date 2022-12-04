@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>About-Protfolio</title>
+		
+		<meta charset="Utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+		
+		
+		<!--bootstrap css-->
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+		
+		<style type="text/css">
+			div{
+				border:2px solid red;
+				min-height:100px;
+			}
+			#me{
+				background-image:url('images/bobby55.jpg');
+				background-size:cover;
+				background-repeat:no-repeat;
+			}
+			.nav-item{
+				border:0px solid red;
+			
+			}
+			ul li a:hover{
+				box-shadow:3px 3px white;
+			}
+			.letter{
+				background-color:rgba(0,0,0,0.7);
+				position:absolute;
+				bottom:40px;
+				right: 20px;
+			}
+			.card{
+				width:18rem;
+			}
+			@media (max-width:768px)
+			{
+				width:100%;
+			}
+			
+		</style>
+		
+	</head>
+	<body>
+		<div class="container-fluid img-fluid" id="me">
+			<div style="background-color:rgba(0,0,0,0.6)">
+			
+			<!--nav row-->
+			<div class="row">
+			<div class="col-md mb-5">
+				<nav class="navbar navbar-expand-md navbar-dark">
+				<div class="container-fluid">
+					<!--<a class="navbar-brand" href="#">Navbar</a>-->
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav offset-4">
+					<li class="nav-item mx-4">
+					<a class="nav-link text-light" aria-current="page" href="#">Home</a>
+					</li>
+					<li class="nav-item mx-4">
+					<a class="nav-link text-light" href="#">About</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						Protfolio
+					</a>
+					<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<li><a class="dropdown-item" href="#">Project</a></li>
+					<li><a class="dropdown-item" href="#">service</a></li>
+					<li><hr class="dropdown-divider"></li>
+					<li><a class="dropdown-item" href="#">Download CV</a></li>
+					</ul>
+					</li>
+					
+					<li class="nav-item mx-4">
+					<a class="nav-link text-light" href="#">Contact</a>
+					</li>
+				</ul>
+				</div>
+				</div>
+				</nav>
+			</div>
+			</div>
+			
+			<!--row 1-->
+			<div class="row">
+				<div class="col-md col-sm-12 col-xs-12">
+					<div class="card">
+  <img src="images/prototype1.png" class="card-img-top img-fluid" alt="photo">
+  <div class="card-body">
+    <h5 class="card-title">Teens Hub</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">VIEW</a>
+  </div>
+</div>
+				</div>
+				
+				<div class="col-md col-sm-12 col-xs-12">
+					<div class="card">
+  <img src="images/bobztal1.jpeg" class="card-img-top img-fluid" alt="photo">
+  <div class="card-body">
+    <h5 class="card-title">Bobztl Pharmaceutical</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">VIEW</a>
+  </div>
+</div>
+				</div>
+				
+				<div class="col-md col-sm-12 col-xs-12">
+					<div class="card">
+  <img src="images/week22.jpeg" class="card-img-top img-fluid" alt="photo">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">VIEW</a>
+  </div>
+</div>
+				</div>
+				
+				
+				</div>
+		
+		
+		
+		<!-- Modal about-->
+<div class="modal fade" id="aboutModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">ABOUT</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>I'm a Fullstack Developer based in Nigeria. The combination of Logic with creative design/critical thinking to make an eye-catching,accessible and user friendly websites and application. My motivation after every project comes from seeing the result of my effort helping the user's experience</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+		
+		<!-- Modal subscribe -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Get the latest from us right to your inbox.</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+					<form action="" method="get">
+						<input type="email" name="email" placeholder="Email" id="form"><br>
+						<button class="form">Subscribe!</button>
+					</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+		
+		</div>
+		</div>
+		<!--javascript-->
+	<script src="bootstrap/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+	</body>
+
+</html>
